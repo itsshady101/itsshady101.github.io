@@ -14,6 +14,7 @@ body {
 
 a {
 	text-decoration: none;
+	color: #252c41;
 }
 
 ul {
@@ -270,3 +271,37 @@ section#about p {
 }
 
 /* CONTACT SECTION */
+section#contact {
+	background: url(../img/footer-bg.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 80px;
+}
+
+section#contact h2 {
+	position: static;
+	line-height: 0.9;
+	opacity: 1;
+	margin-top: 0;
+}
+
+.contact-info {
+	margin-top: 50px;
+}
+
+.contact-content {
+	margin-bottom: 70px;
+	overflow: hidden;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+
+footer {
+}

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<title>Pranjal - Portfolio</title>
@@ -11,15 +12,15 @@
 	<header>
 		<div class="container">
 			<nav>
-				<div class="logo">Pranjal</div>
+				<div class="logo"><a href="https://pranjal.me">Pranjal</a></div>
 				<div class="open-menu" id="openMenu"><img src="img/menu_icon.png" alt=""></div>
 
 				<div class="menu" id="menu">
 					<ul>
-						<li class="active"><a href="#">Projects</a></li>
-						<li><a href="#">Skills</a></li>
-						<li><a href="#">About me</a></li>
-						<li><a href="#">Contact Me</a></li>
+						<li class="active"><a data-scroll href="#projects">Projects</a></li>
+						<li><a data-scroll href="#skills">Skills</a></li>
+						<li><a data-scroll href="#about">About me</a></li>
+						<li><a data-scroll href="#contact">Contact Me</a></li>
 					</ul>
 				</div>
 				<div class="clear"></div>
@@ -28,8 +29,8 @@
 			<div class="content center">
 				<h1>power belongs to<br> those who take it</h1>
 				<div class="cta">
-					<a href="#" class="btn">PROJECTS</a>
-					<a href="#" class="btn inverse">CONTACT ME</a>
+					<a data-scroll href="#projects" class="btn">PROJECTS</a>
+					<a data-scroll href="#contact" class="btn inverse">CONTACT ME</a>
 				</div>
 			</div>
 		</div>
@@ -121,7 +122,7 @@
 					<h2>SAY HELLO?</h2>
 				</div>
 				<div class="half-width" style="margin-top: 70px; padding-left: 40px;">
-					<a href="#" class="btn">CONTACT ME</a>
+					<a href="mailto:pranjal9599@gmail.com" class="btn">CONTACT ME</a>
 					<div class="contact-info">
 						<p><i class="fa fa-envelope" style="margin-right: 5px;"></i> pranjal9599@gmail.com</p>
 						<p><i class="fa fa-skype" style="margin-right: 5px;"></i> pranjal9599</p>
@@ -137,14 +138,15 @@
 				</div>
 
 				<div class="right" style="margin-top: 10px;">
-					<a href="#"><i class="fa fa-skype"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="skype:pranjal9599?chat"><i class="fa fa-skype"></i></a>
+					<a href="https://github.com/itsshady101"><i class="fa fa-github"></i></a>
+					<a href="https://twitter.com/itsshady101"><i class="fa fa-twitter"></i></a>
 				</div>
 			</footer>
 		</div>
 	</section>
 	
+	<script src="js/smooth-scroll.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>

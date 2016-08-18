@@ -1,0 +1,182 @@
+/* Default Styling */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat, 'open sans', arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.8;
+	color: #252c41;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+header {
+	width: 100%;
+	height: 100%;
+	background: url(../img/hero-bg.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 200px;
+}
+
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	font-family: pacifico;
+	font-size: 24px;
+}
+
+.open-menu {
+	display: block;
+	position: absolute;
+	right: 50px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.clear {
+	clear: both;
+}
+.center {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Qanelas Soft DEMO', 'open sans', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	letter-spacing: .145em;
+}
+
+.btn {
+	background: #f1404b;
+	color: #fff;
+	border-radius: 32px;
+	padding: 20px 50px;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: .185em;
+}
+
+.btn.inverse {
+	background: rgba(0,0,0,0.1);
+	border: 2px solid #f1404b;
+}
+
+.menu {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 40%;
+	height: 100%;
+	background: #dddfe6;
+	box-shadow: 0px 0px 83px rgba(37, 44, 65, .62);
+	padding-top: 100px;
+	padding-left: 100px;
+	z-index: 0;
+}
+
+.menu.active {
+	display: block;
+	opacity: 0;
+	transition: all 400ms cubic-bezier(1,-0.18, 0.59, 1.21);
+	animation: open 400ms cubic-bezier(1,-0.18, 0.59, 1.21) forwards;
+}
+
+@keyframes open {
+	0% {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+
+	60% {
+		opacity: .3;
+		transform: translateX(-30px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.menu ul li {
+	list-style-type: upper-roman;
+	color: #252c41;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 80px;
+	letter-spacing: .085em;
+}
+
+.menu ul li.active {
+	font-weight: 600;
+}
+
+.menu ul li a {
+	color: #252c41;
+}
+
+h2 {
+	position: relative;
+	z-index: -999;
+	font-size: 150px;
+	font-weight: 700;
+	color: #252c41;
+	opacity: .05;
+	margin: 0;
+	margin-top: -40px;
+}
+
+.project {
+
+}
+
+.project-img {
+	width: 50%;
+	float: left;
+}
+
+.project-content {
+	width: 50%;
+	float: left;
+}
+
+h3 {
+	font-size: 48px;
+	letter-spacing: .145em;
+}
+
+.tag {
+	font-size: 14px;
+	font-weight: 300;
+	color: rgba(37, 44, 65, .41);
+	background: #dddfe6;
+	border-radius: 50px;
+	padding: 2px 10px;
+}

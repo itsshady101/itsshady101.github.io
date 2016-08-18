@@ -212,6 +212,8 @@ hr {
 	background: rgba(37, 44, 65, 0.05);
 	color: rgba(37, 44, 65, 0.05);
 	opacity: 0.2;
+	margin: 0;
+	padding: 0;
 }
 
 /* SKILLS SECTION */
@@ -248,3 +250,23 @@ hr {
 	width: 50%;
 	float: left;
 }
+
+/* ABOUT SECTION */
+section#about {
+	background: #dddfe6;
+	overflow: auto;
+	padding: 90px 0px;
+}
+
+section#about h2 {
+	line-height: 0.9;
+	margin-top: -70px;
+	text-align: right;
+}
+
+section#about p {
+	opacity: .48;
+	line-height: 2;
+}
+
+/* CONTACT SECTION */
